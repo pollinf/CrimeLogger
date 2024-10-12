@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23231" systemVersion="24A348" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Criminal" representedClassName="Criminal" syncable="YES" codeGenerationType="class">
+        <attribute name="additionalInfo" optional="YES" attributeType="String"/>
+        <attribute name="articles" optional="YES" attributeType="String"/>
+        <attribute name="crime" optional="YES" attributeType="String"/>
+        <attribute name="dateTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="imageName" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+</model>

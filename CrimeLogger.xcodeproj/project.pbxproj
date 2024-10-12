@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360495822CAC01EF00F29186 /* CriminalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360495812CAC01EC00F29186 /* CriminalDetailView.swift */; };
+		360495842CAC029E00F29186 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360495832CAC029800F29186 /* Utilities.swift */; };
+		360583C92C90C4C600968A9E /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360583C82C90C4C600968A9E /* PersistenceController.swift */; };
+		360583CB2C90C9D900968A9E /* AddCriminalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360583CA2C90C9D900968A9E /* AddCriminalView.swift */; };
+		360583CD2C90C9F400968A9E /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360583CC2C90C9F400968A9E /* ImagePicker.swift */; };
+		3647B3A72C90B0090042120F /* CriminalModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3647B3A52C90B0090042120F /* CriminalModel.xcdatamodeld */; };
 		3675DDCB2C8EF81400D3B6D5 /* CrimeLoggerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3675DDCA2C8EF81400D3B6D5 /* CrimeLoggerApp.swift */; };
 		3675DDCD2C8EF81400D3B6D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3675DDCC2C8EF81400D3B6D5 /* ContentView.swift */; };
 		3675DDCF2C8EF81400D3B6D5 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3675DDCE2C8EF81400D3B6D5 /* Item.swift */; };
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		360495812CAC01EC00F29186 /* CriminalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriminalDetailView.swift; sourceTree = "<group>"; };
+		360495832CAC029800F29186 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		360583C82C90C4C600968A9E /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		360583CA2C90C9D900968A9E /* AddCriminalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCriminalView.swift; sourceTree = "<group>"; };
+		360583CC2C90C9F400968A9E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		3647B3A62C90B0090042120F /* CriminalModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CriminalModel.xcdatamodel; sourceTree = "<group>"; };
 		3675DDC72C8EF81400D3B6D5 /* CrimeLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrimeLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3675DDCA2C8EF81400D3B6D5 /* CrimeLoggerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrimeLoggerApp.swift; sourceTree = "<group>"; };
 		3675DDCC2C8EF81400D3B6D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,8 +109,14 @@
 		3675DDC92C8EF81400D3B6D5 /* CrimeLogger */ = {
 			isa = PBXGroup;
 			children = (
+				360495832CAC029800F29186 /* Utilities.swift */,
+				360495812CAC01EC00F29186 /* CriminalDetailView.swift */,
 				3675DDCA2C8EF81400D3B6D5 /* CrimeLoggerApp.swift */,
 				3675DDCC2C8EF81400D3B6D5 /* ContentView.swift */,
+				360583CA2C90C9D900968A9E /* AddCriminalView.swift */,
+				360583CC2C90C9F400968A9E /* ImagePicker.swift */,
+				360583C82C90C4C600968A9E /* PersistenceController.swift */,
+				3647B3A52C90B0090042120F /* CriminalModel.xcdatamodeld */,
 				3675DDCE2C8EF81400D3B6D5 /* Item.swift */,
 				3675DDD02C8EF81600D3B6D5 /* Assets.xcassets */,
 				3675DDD22C8EF81600D3B6D5 /* CrimeLogger.entitlements */,
@@ -196,7 +214,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					3675DDC62C8EF81400D3B6D5 = {
 						CreatedOnToolsVersion = 15.4;
@@ -262,9 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				360495822CAC01EF00F29186 /* CriminalDetailView.swift in Sources */,
 				3675DDCD2C8EF81400D3B6D5 /* ContentView.swift in Sources */,
+				360583CB2C90C9D900968A9E /* AddCriminalView.swift in Sources */,
 				3675DDCF2C8EF81400D3B6D5 /* Item.swift in Sources */,
+				360583CD2C90C9F400968A9E /* ImagePicker.swift in Sources */,
+				3647B3A72C90B0090042120F /* CriminalModel.xcdatamodeld in Sources */,
+				360495842CAC029E00F29186 /* Utilities.swift in Sources */,
 				3675DDCB2C8EF81400D3B6D5 /* CrimeLoggerApp.swift in Sources */,
+				360583C92C90C4C600968A9E /* PersistenceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +359,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -396,6 +421,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -423,7 +449,9 @@
 				CODE_SIGN_ENTITLEMENTS = CrimeLogger/CrimeLogger.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"CrimeLogger/Preview Content\"";
+				DEVELOPMENT_TEAM = X9GMDS8BZW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -459,7 +487,9 @@
 				CODE_SIGN_ENTITLEMENTS = CrimeLogger/CrimeLogger.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"CrimeLogger/Preview Content\"";
+				DEVELOPMENT_TEAM = X9GMDS8BZW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -490,10 +520,10 @@
 		3675DDF22C8EF81600D3B6D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -512,10 +542,10 @@
 		3675DDF32C8EF81600D3B6D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -534,9 +564,9 @@
 		3675DDF52C8EF81600D3B6D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -555,9 +585,9 @@
 		3675DDF62C8EF81600D3B6D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -613,6 +643,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3647B3A52C90B0090042120F /* CriminalModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3647B3A62C90B0090042120F /* CriminalModel.xcdatamodel */,
+			);
+			currentVersion = 3647B3A62C90B0090042120F /* CriminalModel.xcdatamodel */;
+			name = CriminalModel.xcdatamodeld;
+			path = "/Users/polina/Desktop/untitled folder/CrimeLogger/CrimeLogger/CriminalModel.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3675DDBF2C8EF81400D3B6D5 /* Project object */;
 }
